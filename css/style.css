@@ -1,0 +1,148 @@
+.bold{
+	font-weight: bold;
+}
+.normal{
+	font-weight: normal;
+}
+.color1{
+	color: #8dc6c7;
+}
+.pink{
+	color: #ff3480;
+}
+.circle{
+	border-radius: 50%;
+}
+.course {
+	border-top: 1px solid #cccccc;
+	text-align: center;
+}
+.course h6{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
+.lastCourse {
+	border-bottom: 1px solid #cccccc;
+}
+.course:hover{
+	background-color: #ebf8fb;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #fff;
+    border-color: #cccccc;
+    border: 1 solid black;
+    width: 50%;
+    height: 100px;
+    
+    margin-top: 10px;
+}
+.btn-primary:hover{
+    background: #FFF;
+}
+.bt button{
+    margin-left: 11%;
+    width: 35%;
+    height: 50px;
+    border: 1px solid #028d82;
+    background-color: rgba(154, 205, 50, 0);
+}
+.bt button:hover{
+    background-color: #028d82;
+    color: #FFF;
+}
+/*pop up stylesheet*/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: #8dc6c7;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-body {
+	padding: 2px 16px;
+	background-color:  #ebf8fb;
+}
+.modal-body img{
+	width: 100px;
+	height: 100px;
+}
+
+/*starting the formating of the third page!!!!!!*/
+.border3{
+	border:1px solid #ddd;
+	width: 90%;
+	margin: auto;
+}
+.green{
+	color: #028d82;
+}
+.maindiv{
+	width: 80%;
+	height: 90%;
+	margin: auto;
+}
+.width70{
+	width: 70%;
+}
+.width100{
+	width: 100%;
+}
+.add-button{
+    background-color: #fff;
+    border:none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
